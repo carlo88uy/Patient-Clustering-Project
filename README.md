@@ -26,6 +26,8 @@ The project uses a publicly available dataset from Kaggle containing:
 Dataset link:  
 https://www.kaggle.com/datasets/mohankrishnathalla/medical-insurance-cost-prediction
 
+**Note: The dataset is already provided, so no download is required.**
+
 Below is an example preview of the encoded dataset:
 
 ![Dataset](vizualizations/EDA/Dataset%20header.png)
@@ -51,6 +53,109 @@ Patient-Clustering-Project/
 ├── LICENSE
 └── README.md
 ```
+
+## Installation
+### Instructions for Running the Project
+
+Follow the steps below to set up the environment, access the data, and reproduce the clustering and modeling results.
+
+---
+
+### 1. Clone the Repository
+```
+git clone https://github.com/carlo88uy/Patient-Clustering-Project.git
+cd Patient-Clustering-Project
+```
+
+---
+
+### 2. Install Required Python Libraries
+
+Ensure you have Python 3.8+ installed.  
+Then manually install the core libraries used in this project:
+
+These libraries support preprocessing, visualization, clustering, and modeling.
+
+---
+
+### 3. Download the Dataset
+The dataset required for this project is already included in the repository.
+
+
+*Any additional datasets generated during analysis have been placed in 'data/' analysis
+
+---
+
+### 4. Open the Jupyter Notebooks
+
+Launch Jupyter Notebook:
+
+
+Then open:
+
+- `notebooks/Insurance Cost & Risk Analysis.ipynb`  
+- `notebooks/Patient Clustering.ipynb`  
+
+Each notebook walks through the full process of preprocessing, clustering, profiling, and supervised classification.
+
+---
+
+### 5. Reproducing the Analysis
+
+Run each notebook cell in order:
+
+1. Load and inspect the data  
+2. Apply preprocessing and feature engineering  
+3. Perform K-Means clustering  
+4. Profile each cluster  
+5. Train the Random Forest classifier  
+6. Evaluate model performance (confusion matrix, ROC curves, AUC)
+
+All generated visualizations will be saved to:
+vizualizations/EDA/...
+vizualizations/Results/...
+
+---
+
+### 6. Viewing the Visualizations
+
+The repository includes two main visualization folders:
+
+- **EDA plots:**  
+  `vizualizations/EDA/`
+
+- **Model results (confusion matrices, ROC curves, etc.):**  
+  `vizualizations/Results/`
+
+You may insert these into your README or use them in presentations.
+
+---
+
+### 7. Extending or Modifying the Project
+
+You may extend this analysis by:
+
+- Adjusting feature selection  
+- Changing the number of clusters  
+- Trying new supervised models (SVM, Logistic Regression, XGBoost)  
+- Modifying hyperparameters  
+- Adding new evaluation metrics  
+
+The repository structure supports flexible experimentation.
+
+---
+
+### 8. Troubleshooting
+
+If errors occur:
+
+- Ensure Python 3.8+ is installed  
+- Verify all required libraries are installed  
+- Check that all datasets are correctly placed in the `data/` folder  
+- Restart the Jupyter kernel and rerun all notebook cells  
+
+If further issues occur, open an issue in the repository or contact me at carlo88uy@gmail.com
+
 
 ## Data Cleaning and Preprocessing
 
