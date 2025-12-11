@@ -29,9 +29,7 @@ https://www.kaggle.com/datasets/mohankrishnathalla/medical-insurance-cost-predic
 
 Below is an example preview of the encoded dataset:
 
-```
-[Insert preencoded.png here]
-```
+![Dataset](vizualizations/EDA/Dataset%20header.png)
 
 ---
 
@@ -61,9 +59,7 @@ We selected key demographic, lifestyle, clinical, and chronic condition variable
 ### Determining Optimal K  
 K-Means clustering was applied, and an elbow plot was used to select **k = 4** as the optimal number of clusters.
 
-```
-[Insert elbow plot / cluster graph image here]
-```
+![Elbow Plot](vizualizations/Results/Elbow%20Method%20.png)
 
 ### Cluster Profiling  
 After clustering, each group was profiled using:
@@ -94,19 +90,14 @@ To predict cluster membership for new patients and validate cluster separability
   - Multiclass ROC curves  
   - AUC scores  
 
-```
-[Insert confusion matrix image here]
-```
+![Confusion Matrix](vizualizations/Results/Confusion_Matrix.png)
 
 ### Model Performance
 
 - **Accuracy:** 0.9673  
 - ROC curves for each cluster displayed **AUC values > 0.99**, indicating excellent separability between patient groups.
 
-```
-[Insert ROC curves image here]
-```
-
+![ROC Curves](vizualizations/Results/ROC&20Curves.png)
 ---
 
 ## Findings
@@ -133,10 +124,6 @@ To predict cluster membership for new patients and validate cluster separability
 - LDL and HbA1c levels  
 - Smoking and alcohol use  
 - Age  
-
-```
-[Insert additional findings images here]
-```
 
 ---
 
