@@ -1,5 +1,9 @@
 # Patient Clustering and Risk Profiling Using Machine Learning  
-
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Repository Structure](#repository-structure)
+- [Installation](#installation)
+- [Report Section](#report-section)
 ---
 
 ## Introduction
@@ -157,6 +161,9 @@ If errors occur:
 If further issues occur, open an issue in the repository or contact me at carlo88uy@gmail.com
 
 
+# Report Section
+
+---
 ## Data Cleaning and Preprocessing
 
 Preprocessing included the following steps:
