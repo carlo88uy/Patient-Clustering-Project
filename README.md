@@ -34,20 +34,19 @@ Below is an example preview of the encoded dataset:
 
 ## Repository Structure
 
-
 project-root/
 │
-├── data/
+├── data/ # Raw and processed datasets
 │ ├── medical_insurance.csv
-│ └── cluster_profiles_full.csv
+│ ├── cluster_profiles_full.csv
 │
-├── notebooks/
+├── notebooks/ # Jupyter notebooks for analysis and modeling
 │ ├── Insurance Cost & Risk Analysis.ipynb
 │ └── Patient Clustering.ipynb
 │
-├── vizualizations/
-│ ├── EDA/ # Exploratory Data Analysis images
-│ └── Results/ # Model results, confusion matrices, ROC curves, etc.
+├── vizualizations/ # All project images and graphics
+│ ├── EDA/ # Exploratory data analysis plots
+│ └── Results/ # Model outputs (ROC curves, confusion matrices, etc.)
 │
 ├── LICENSE
 └── README.md
