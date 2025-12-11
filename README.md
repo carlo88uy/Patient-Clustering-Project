@@ -33,8 +33,8 @@ Below is an example preview of the encoded dataset:
 ---
 
 ## Repository Structure
-
-project-root/
+```
+Patient-Clustering-Project/
 │
 ├── data/ # Raw and processed datasets
 │ ├── medical_insurance.csv
@@ -50,7 +50,7 @@ project-root/
 │
 ├── LICENSE
 └── README.md
-
+```
 
 ## Data Cleaning and Preprocessing
 
