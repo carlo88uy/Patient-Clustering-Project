@@ -1,5 +1,4 @@
 # Patient Clustering and Risk Profiling Using Machine Learning  
-**Group 17 — Carlo Uy, Vishnu Valmeti, Brett Raulerson**
 
 ---
 
@@ -97,7 +96,7 @@ To predict cluster membership for new patients and validate cluster separability
 - **Accuracy:** 0.9673  
 - ROC curves for each cluster displayed **AUC values > 0.99**, indicating excellent separability between patient groups.
 
-![ROC Curves](vizualizations/Results/ROC&20Curves.png)
+![ROC Curves](vizualizations/Results/ROC%20Curves.png)
 ---
 
 ## Findings
@@ -124,7 +123,7 @@ To predict cluster membership for new patients and validate cluster separability
 - LDL and HbA1c levels  
 - Smoking and alcohol use  
 - Age  
-
+![Features](vizualizations/Results/Top%2020%20Features.png)
 ---
 
 ## Work Division Among Team Members
@@ -140,7 +139,7 @@ Responsibilities were shared collaboratively throughout the project.
 
 ---
 
-## Use of External Libraries and Methods
+## Use of Libraries and Methods
 
 All work was completed using standard Python libraries:
 
