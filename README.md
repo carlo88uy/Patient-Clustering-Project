@@ -32,6 +32,27 @@ Below is an example preview of the encoded dataset:
 
 ---
 
+## Repository Structure
+
+
+project-root/
+│
+├── data/
+│ ├── medical_insurance.csv
+│ └── cluster_profiles_full.csv
+│
+├── notebooks/
+│ ├── Insurance Cost & Risk Analysis.ipynb
+│ └── Patient Clustering.ipynb
+│
+├── vizualizations/
+│ ├── EDA/ # Exploratory Data Analysis images
+│ └── Results/ # Model results, confusion matrices, ROC curves, etc.
+│
+├── LICENSE
+└── README.md
+
+
 ## Data Cleaning and Preprocessing
 
 Preprocessing included the following steps:
