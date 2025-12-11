@@ -2,7 +2,7 @@
 
 ---
 
-## Problem Description
+## Introduction
 
 Healthcare systems often struggle to identify groups of patients with similar risk profiles. Wide variation in demographics, lifestyle behaviors, chronic conditions, and medical utilization makes traditional risk-scoring approaches incomplete or inaccurate.
 
