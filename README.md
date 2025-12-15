@@ -3,7 +3,7 @@
 - [Dataset](#dataset)
 - [Repository Structure](#repository-structure)
 - [Installation](#installation)
-- [Report Section](#report-section)
+- [Methodology](#methodology)
 ---
 
 ## Introduction
@@ -130,38 +130,9 @@ The repository includes two main visualization folders:
 
 - **Model results (confusion matrices, ROC curves, etc.):**  
   `vizualizations/Results/`
-
-You may insert these into your README or use them in presentations.
-
 ---
 
-### 7. Extending or Modifying the Project
-
-You may extend this analysis by:
-
-- Adjusting feature selection  
-- Changing the number of clusters  
-- Trying new supervised models (SVM, Logistic Regression, XGBoost)  
-- Modifying hyperparameters  
-- Adding new evaluation metrics  
-
-The repository structure supports flexible experimentation.
-
----
-
-### 8. Troubleshooting
-
-If errors occur:
-
-- Ensure Python 3.8+ is installed  
-- Verify all required libraries are installed  
-- Check that all datasets are correctly placed in the `data/` folder  
-- Restart the Jupyter kernel and rerun all notebook cells  
-
-If further issues occur, open an issue in the repository or contact me at carlo88uy@gmail.com
-
-
-# Report Section
+# Methodology
 
 ---
 ## Data Cleaning and Preprocessing
@@ -230,6 +201,21 @@ To predict cluster membership for new patients and validate cluster separability
 
 ![ROC Curves](vizualizations/Results/ROC%20Curves.png)
 ---
+## Use of Libraries and Methods
+
+All work was completed using standard Python libraries:
+
+- pandas  
+- NumPy  
+- scikit-learn  
+- matplotlib  
+- seaborn
+
+These tools ensured clean, efficient preprocessing and modeling pipelines.
+
+No external advanced machine learning packages were used.
+
+---
 
 ## Findings
 
@@ -258,63 +244,9 @@ To predict cluster membership for new patients and validate cluster separability
 ![Features](vizualizations/Results/Top%2020%20Features.png)
 ---
 
-## Work Division Among Team Members
+# License
+This project is licensed under the **MIT License**
 
-All team members contributed equally to:
-
-- Problem definition and refinement  
-- Design of the clustering and modeling approach  
-- Execution of data analysis and model evaluation  
-- Preparation of the presentation and written report  
-
-Responsibilities were shared collaboratively throughout the project.
-
----
-
-## Use of Libraries and Methods
-
-All work was completed using standard Python libraries:
-
-- pandas  
-- NumPy  
-- scikit-learn  
-- matplotlib  
-- seaborn  
-
-Additional scikit-learn components used:
-
-- `StandardScaler`  
-- `OneHotEncoder`  
-- `SimpleImputer`  
-- `ColumnTransformer`  
-- `Pipeline`
-
-These tools ensured clean, efficient preprocessing and modeling pipelines.
-
-No external advanced machine learning packages were used.
-
----
-
-## Use of Open-Source Code
-
-To assist with exploratory analysis, we used a pre-made correlation matrix by **Lighton N. Kalumba** from a Kaggle notebook:
-
-**“Health Cost Prediction ML 95% + Full Analysis”**
-
-This was used strictly to help identify the most relevant features for clustering.  
-All other modeling was developed independently.
-
----
-
-## Citations
-
-Author(s). Title of Article. Journal Name. Year;Volume(Issue):Pages. https://pmc.ncbi.nlm.nih.gov/articles/PMC9180316/  
-
-Kaiser Family Foundation. (2025, October 8). *Health care costs and affordability.* https://www.kff.org/health-costs/health-policy-101-health-care-costs-and-affordability/  
-
-Centers for Disease Control and Prevention. (2025, January 28). *High blood pressure facts.* https://www.cdc.gov/high-blood-pressure/data-research/facts-stats/index.html  
-
-National Library of Medicine. (2025, May 20). *Hemoglobin A1C (HbA1c) test.* https://medlineplus.gov/lab-tests/hemoglobin-a1c-hba1c-test/  
-
-American Heart Association. (2023). *HDL (Good), LDL (Bad) Cholesterol and Triglycerides.* https://www.heart.org/en/health-topics/cholesterol/hdl-good-ldl-bad-cholesterol-and-triglycerides  
-
+## Acknowledgements
+Feature exploration was informed by an open-source Kaggle notebook by Lighton N. Kalumba (Health Cost Prediction ML 95% + Full Analysis).
+All modeling, clustering, and evaluation were implemented independently.
